@@ -4,29 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1daece4c-cff4-4090-b606-69dffa80a97a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_sql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/jinx/FirstSparkSQL.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_sql/src/test/java/com/jinx/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="1daece4c-cff4-4090-b606-69dffa80a97a" name="Default Changelist" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/engineweb_1_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/movies.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/movies.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/occupation.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/occupation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/ratings.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/ratings.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/user.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/user.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jinx/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jinx/StartLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/jinx/movie/movie_usr.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/jinx/movie/movie_usr.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/jinx/movie/pop_movie.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/jinx/movie/pop_movie.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/jjxx.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/movie/movie_usr$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jinx/movie/movie_usr$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/movie/pop_movie$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jinx/movie/pop_movie$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/movie/pop_movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jinx/movie/pop_movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/com/jinx/FirstSparkSQL.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/jinx/FirstSparkSQL.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/App.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +50,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -98,7 +90,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -106,7 +98,7 @@
       <recent name="com.jinx.movie" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.shouldAnswerWithTrue">
+  <component name="RunManager" selected="Application.pop_movie">
     <configuration name="StartLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -183,8 +175,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
         <item itemvalue="Application.pop_movie" />
+        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
         <item itemvalue="Application.movie_usr (1)" />
         <item itemvalue="Application.StartLog" />
         <item itemvalue="Application.ratings" />
@@ -212,8 +204,16 @@
       <workItem from="1640513769050" duration="493000" />
       <workItem from="1640514284816" duration="1711000" />
       <workItem from="1640519400504" duration="275000" />
-      <workItem from="1640527706144" duration="2772000" />
+      <workItem from="1640527706144" duration="5795000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1640530756892</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640530756892</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +245,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -255,5 +259,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
