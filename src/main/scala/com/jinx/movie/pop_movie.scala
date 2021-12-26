@@ -103,6 +103,6 @@ object pop_movie {
   def main(args: Array[String]): Unit = {
     //movie_most("G:\\Program Files (x86)\\spark_v1\\log\\")
     //type_movie("G:\\Program Files (x86)\\spark_v1\\log\\")
-    //sort(,"D:\\Gdisk\\spark\\spark_v1\\log\\")
+    sort("D:\\Gdisk\\spark\\spark_v1\\log\\")
   }
 }

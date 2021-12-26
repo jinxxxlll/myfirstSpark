@@ -34,9 +34,7 @@ object movie_usr {
 
     val res = usrInfo.map(x=>{(x._2._3,(x._1,x._2._1,x._2._2))}).join(occ_name).map(x=>(x._2._2,1)).reduceByKey(_+_)
     var num=0
-    //res.foreach(x=>{num+=x._2; println(x);println(num)})
-      var temp=0
-     rating_name.map(x=>(x._1,1)).reduceByKey(_+_).foreach(x=>{if(x._2>temp)temp=x._2;println(temp)})
+    res.foreach(x=>{num+=x._2; println(x);println(num)})
 
   }
 

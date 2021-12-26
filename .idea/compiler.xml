@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spark_v1" />
+        <module name="spark_sql" />
         <module name="spark_core" />
       </profile>
     </annotationProcessing>

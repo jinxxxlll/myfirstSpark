@@ -11,7 +11,7 @@ import java.util.Iterator;
 /**
  * Author jinx
  */
-public class App 
+public class StartLog
 {
 
     private DateFormat dateFormat = new SimpleDateFormat("HHmmss");
@@ -22,7 +22,7 @@ public class App
     public static void main( String[] args )
     {
         String path="D:\\Gdisk\\spark\\spark_v1\\log\\";
-        App app = new App();
+        StartLog app = new StartLog();
         app.writeFileSpark(path);
         app.writeFileSpark(path,1);
         app.writeFileSpark(path,1,2);
