@@ -4,7 +4,49 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1daece4c-cff4-4090-b606-69dffa80a97a" name="Default Changelist" comment="更新结构，以及sparkSQl代码" />
+    <list default="true" id="1daece4c-cff4-4090-b606-69dffa80a97a" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/engineweb_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_1_1_17_47_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_1_1_17_47__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_1_1_17_54_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_1_1_17_54__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_1_1_17_55_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_1_1_17_55__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/jinx/model/Movie.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/jinx/model/Occupation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/jinx/model/Ratings.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/jinx/model/User.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinx/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinx/model/movieSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinx/movie/ratings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/jinx/demo/Solution.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/jinx/demo/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/jinx/model/DoubleSort.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/jinx/movie/movie_usr.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/jinx/movie/pop_movie.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/jinx/mySparkApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jinx/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/src/test/main/scala/com/jinx/mySparkApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/test/main/scala/com/jinx/Other.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/target/classes/com/jinx/Other$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/target/classes/com/jinx/Other.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/target/classes/com/jinx/StartLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/target/classes/com/jinx/demo/Solution$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/target/classes/com/jinx/demo/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/target/classes/com/jinx/demo/Test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/target/classes/com/jinx/demo/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/target/classes/com/jinx/model/DoubleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/target/classes/com/jinx/model/movieSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/target/classes/com/jinx/movie/movie_usr$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/target/classes/com/jinx/movie/movie_usr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/target/classes/com/jinx/movie/pop_movie$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/target/classes/com/jinx/movie/pop_movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/target/classes/com/jinx/movie/ratings$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/target/classes/com/jinx/movie/ratings.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +79,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,10 +93,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://scala-decompiled/Ordered.decompiled.java" root0="SKIP_HIGHLIGHTING" />
-    <setting file="dummy://scala-decompiled/Ordered.decompiled.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -109,7 +147,7 @@
       <recent name="com.jinx.movie" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ratings">
+  <component name="RunManager" selected="Application.pop_movie">
     <configuration name="Other" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.jinx.Other" />
       <module name="spark_core" />
@@ -123,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jinx.StartLog" />
-      <module name="jinx_spark" />
+    <configuration name="movie_usr" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.jinx.movie.movie_usr" />
+      <module name="spark_core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jinx.*" />
+          <option name="PATTERN" value="com.jinx.movie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pop_movie" />
+        <item itemvalue="Application.movie_usr" />
+        <item itemvalue="Application.Other" />
         <item itemvalue="Application.ratings" />
         <item itemvalue="Application.ratings (1)" />
-        <item itemvalue="Application.pop_movie" />
-        <item itemvalue="Application.Other" />
-        <item itemvalue="Application.StartLog" />
       </list>
     </recent_temporary>
   </component>
@@ -278,11 +316,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1" />
     <MESSAGE value="跟新sparkSQl" />
     <MESSAGE value="更新sparkSQl" />
     <MESSAGE value="更新结构，以及sparkSQl代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新结构，以及sparkSQl代码" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
