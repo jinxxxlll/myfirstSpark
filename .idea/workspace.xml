@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1daece4c-cff4-4090-b606-69dffa80a97a" name="Default Changelist" comment="更新sparkSQl">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_12_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/com/jinx/FirstSparkSQL.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/jinx/FirstSparkSQL.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jinx/StartLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jinx/model/movieSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jinx/movie/ratings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/jinx/demo/Solution.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/jinx/demo/Test.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/jinx/model/DoubleSort.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/jinx/movie/movie_usr.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/jinx/movie/pop_movie.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/jinx/mySparkApp.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jinx/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/demo/Solution$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/demo/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/demo/Test$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/demo/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/model/DoubleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/model/movieSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/movie/movie_usr$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/movie/movie_usr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/movie/pop_movie$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/movie/pop_movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/movie/ratings$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/movie/ratings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/mySparkApp$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jinx/mySparkApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jinx/AppTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="1daece4c-cff4-4090-b606-69dffa80a97a" name="Default Changelist" comment="更新结构，以及sparkSQl代码" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +109,7 @@
       <recent name="com.jinx.movie" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ratings (1)">
+  <component name="RunManager" selected="Application.ratings">
     <configuration name="Other" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.jinx.Other" />
       <module name="spark_core" />
@@ -208,8 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ratings (1)" />
         <item itemvalue="Application.ratings" />
+        <item itemvalue="Application.ratings (1)" />
         <item itemvalue="Application.pop_movie" />
         <item itemvalue="Application.Other" />
         <item itemvalue="Application.StartLog" />
@@ -239,7 +208,7 @@
       <workItem from="1640519400504" duration="275000" />
       <workItem from="1640527706144" duration="30268000" />
       <workItem from="1640875004801" duration="12780000" />
-      <workItem from="1641025866901" duration="2742000" />
+      <workItem from="1641025866901" duration="3067000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1640530756892</created>
@@ -269,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640617998508</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更新结构，以及sparkSQl代码">
+      <created>1641028639612</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641028639612</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +281,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="跟新sparkSQl" />
     <MESSAGE value="更新sparkSQl" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新sparkSQl" />
+    <MESSAGE value="更新结构，以及sparkSQl代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新结构，以及sparkSQl代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
