@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1daece4c-cff4-4090-b606-69dffa80a97a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/engineweb_1_0_SNAPSHOT.xml" beforeDir="false" />
+    <list default="true" id="1daece4c-cff4-4090-b606-69dffa80a97a" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_12_121.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/jinx/AnalysisUsr.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_1_1_17_47_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_1_1_17_47__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_1_1_17_54_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_1_1_17_54__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_1_1_17_55_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_1_1_17_55__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/src/test/main/scala/com/jinx/movie/pop_movie.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/test/main/scala/com/jinx/movie/sparkCore.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/src/test/java/com/jinx/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/test/java/com/jinx/AppTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Scala Class" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -86,27 +101,30 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/jinx/model" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark_sql/src/properties" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java_proj\myfirstSpark\spark_core\src\test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\java_proj\myfirstSpark\spark_core" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.jinx.model" />
       <recent name="com.jinx.movie" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_proj\myfirstSpark\spark_sql\src\properties" />
+      <recent name="D:\java_proj\myfirstSpark\spark_core\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -121,10 +139,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.pop_movie">
-    <configuration name="Other" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.jinx.Other" />
-      <module name="spark_core" />
+  <component name="RunManager" selected="JUnit.TestConfig.testConfig">
+    <configuration name="FirstSparkSQL" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.jinx.FirstSparkSQL" />
+      <module name="spark_sql" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jinx.*" />
@@ -135,65 +153,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="movie_usr" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.jinx.movie.movie_usr" />
-      <module name="spark_core" />
+    <configuration name="TestApi.testApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spark_sql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jinx.movie.*" />
+          <option name="PATTERN" value="com.jinx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.jinx" />
+      <option name="MAIN_CLASS_NAME" value="com.jinx.TestApi" />
+      <option name="METHOD_NAME" value="testApi" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pop_movie" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.jinx.movie.pop_movie" />
-      <module name="spark_core" />
+    <configuration name="TestApi.testFun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spark_sql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jinx.movie.*" />
+          <option name="PATTERN" value="com.jinx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.jinx" />
+      <option name="MAIN_CLASS_NAME" value="com.jinx.TestApi" />
+      <option name="METHOD_NAME" value="testFun" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ratings (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jinx.movie.ratings" />
-      <module name="jinx_spark" />
+    <configuration name="TestConfig$" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spark_sql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jinx.movie.*" />
+          <option name="PATTERN" value="com.jinx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.jinx" />
+      <option name="MAIN_CLASS_NAME" value="com.jinx.TestConfig$" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ratings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jinx.movie.ratings" />
-      <module name="spark_core" />
+    <configuration name="TestConfig.testConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spark_sql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jinx.movie.*" />
+          <option name="PATTERN" value="com.jinx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.jinx" />
+      <option name="MAIN_CLASS_NAME" value="com.jinx.TestConfig" />
+      <option name="METHOD_NAME" value="testConfig" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pop_movie" />
-        <item itemvalue="Application.movie_usr" />
-        <item itemvalue="Application.Other" />
-        <item itemvalue="Application.ratings" />
-        <item itemvalue="Application.ratings (1)" />
+        <item itemvalue="JUnit.TestConfig.testConfig" />
+        <item itemvalue="JUnit.TestConfig$" />
+        <item itemvalue="JUnit.TestApi.testApi" />
+        <item itemvalue="JUnit.TestApi.testFun" />
+        <item itemvalue="Application.FirstSparkSQL" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +252,10 @@
       <workItem from="1641025866901" duration="3067000" />
       <workItem from="1641045728870" duration="88000" />
       <workItem from="1641045851028" duration="70000" />
-      <workItem from="1641045933566" duration="771000" />
+      <workItem from="1641045933566" duration="2043000" />
+      <workItem from="1641048010348" duration="13584000" />
+      <workItem from="1641197112851" duration="24432000" />
+      <workItem from="1641728096858" duration="12081000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1640530756892</created>
@@ -274,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641046078570</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1">
+      <created>1641046728665</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641046728665</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +321,16 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -361,6 +410,31 @@
             </State>
           </value>
         </entry>
+        <entry key="4">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -386,6 +460,7 @@
         <option value="1" />
         <option value="2" />
         <option value="3" />
+        <option value="4" />
       </set>
     </option>
   </component>
@@ -403,6 +478,11 @@
           <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.12/2.4.4/spark-core_2.12-2.4.4-sources.jar!/org/apache/spark/rdd/RDD.scala</url>
+          <line>786</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

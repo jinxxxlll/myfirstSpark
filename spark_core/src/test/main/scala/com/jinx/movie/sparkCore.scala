@@ -1,6 +1,5 @@
 package com.jinx.movie
 
-import com.jinx.model.DoubleSort
 import org.apache.spark.{SparkConf, SparkContext}
 
 import scala.collection.mutable
@@ -14,7 +13,7 @@ import scala.collection.parallel.immutable
  * rating: usrId + movieId +ration + time
  *
  */
-object pop_movie {
+object sparkCore {
 
   /*
   最受欢迎的电影（TOP10）
@@ -79,6 +78,7 @@ object pop_movie {
     for (elem <- ages) {
       val temp =usrinfo.filter(x=>x._2.toInt==elem)
       val value = HashSet()++temp.map(_._1).collect()
+      //广播变量
       val broadcast = sc.broadcast(value)
       val res=ratings.filter(x=>broadcast.value.contains(x._1)).map(x=>(x._2,(x._3.toDouble,1)))
         .reduceByKey((x,y)=>(x._1+y._1,x._2+y._2)).map(x=>(x._2._1/x._2._2,x._1))
@@ -90,7 +90,7 @@ object pop_movie {
   }
 
 /*
-/ 优先时间排序，然后usr_id 排序
+/ 多次排序，优先时间排序，然后usr_id 排序
  */
   def sort(path:String)={
     val sc=new SparkContext(new SparkConf().setAppName("sort").setMaster("local"))
