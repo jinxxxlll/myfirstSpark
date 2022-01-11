@@ -25,7 +25,7 @@ object ConfigDaoImpl extends ConfigDao{
       cs=connection.prepareCall("call pro_data_main")
       cs.registerOutParameter(1,2)
       cs.registerOutParameter(2,2)
-      cs.registerOutParameter(3,2)
+      cs.registerOutParameter(3,3)
 
 
     }
