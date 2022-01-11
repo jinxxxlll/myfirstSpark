@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1daece4c-cff4-4090-b606-69dffa80a97a" name="Default Changelist" comment="crm">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/dao/imp/ConfigDaoImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/dao/imp/ConfigDaoImpl.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_sql/src/test/java/com/jinx/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/test/java/com/jinx/AppTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +78,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -101,12 +100,9 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\java_proj\myfirstSpark\spark_core" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.jinx.model" />
       <recent name="com.jinx.movie" />
@@ -114,6 +110,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java_proj\myfirstSpark\spark_sql\src\properties" />
       <recent name="D:\java_proj\myfirstSpark\spark_core\src\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java_proj\myfirstSpark\spark_core" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -309,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641827369359</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="crm">
+      <created>1641910833242</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641910833242</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
