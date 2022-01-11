@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1daece4c-cff4-4090-b606-69dffa80a97a" name="Default Changelist" comment="crm">
-      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/dao/imp/ConfigDaoImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/dao/imp/ConfigDaoImpl.scala" afterDir="false" />
-    </list>
+    <list default="true" id="1daece4c-cff4-4090-b606-69dffa80a97a" name="Default Changelist" comment="crm" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +213,7 @@
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
-    <configuration>C:\Users\jinxxx\AppData\Roaming\Subversion</configuration>
+    <configuration>C:\Users\Jinx\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -321,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641911337336</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="crm">
+      <created>1641911467615</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641911467615</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
