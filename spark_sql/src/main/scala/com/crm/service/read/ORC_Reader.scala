@@ -4,10 +4,14 @@ import com.crm.model.Pro_data_info
 import com.crm.service.{DataFactory, Data_excute}
 import org.apache.spark.sql.SparkSession
 
-class Hive_reader(ss: SparkSession,pro_data_info: Pro_data_info,np:Int) extends Data_excute(ss,pro_data_info,np){
+class ORC_Reader(ss: SparkSession,pro_data_info: Pro_data_info,np:Int) extends Data_excute(ss,pro_data_info,np){
 
   override def excute(sparkSession: SparkSession, pro_data_info: Pro_data_info, numsPartition: Int): Unit = {
 
+    val tablename = pro_data_info.TABLE_NAME
+    val path = pro_data_info.CFG.get("orcPath")
+    val df = sparkSession.read.orc(path)
+    df.show(10)
   }
 
 
