@@ -23,4 +23,12 @@ object JdbcUtil {
     }
   }
 
+  def main(args: Array[String]): Unit = {
+    val url = Config.Instance.getProperty("datasource.url")
+    val user = Config.Instance.getProperty("datasource.username")
+    val password = Config.Instance.getProperty("datasource.password")
+    val driver = Config.Instance.getProperty("datasource.driver-class-name")
+
+    getConnection(driver,url,user,password)
+  }
 }

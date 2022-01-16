@@ -11,7 +11,7 @@ object Config {
 
   private val logger: Logger = LoggerFactory.getLogger(Config.getClass)
   private var properties: Properties = _
-
+  val Instance: Config.type = Config
   def loadProperties(source: String):Properties ={
     val properties = new Properties
     var stream = Config.getClass.getResourceAsStream(source)

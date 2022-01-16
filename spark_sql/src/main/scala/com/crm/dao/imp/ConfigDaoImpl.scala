@@ -33,6 +33,7 @@ object ConfigDaoImpl extends ConfigDao{
       cs.setInt(5,date.toInt)
       cs.execute()
       val code = cs.getInt(1)
+      val note = cs.getString(2)
       var dataClass:Pro_data_info =null
       if(code==1){
         val res=cs.getObject(3).asInstanceOf[ResultSet]
@@ -47,16 +48,32 @@ object ConfigDaoImpl extends ConfigDao{
           if(StringUtils.isNotBlank(cfg)){
             val map:util.Map[String,String]= (new Gson).fromJson(cfg, classOf[util.Map[String,String]])
             dataClass=Pro_data_info(id,sql,sqlType,tableName,sourceType,map)
+          }else{
+            dataClass=Pro_data_info(id,sql,sqlType,tableName,sourceType,null)
           }
-          println(dataClass.toString)
+          list.add(dataClass)
         }
-
-
-
+      }else{
+        logger.error(s"返回游标数据有误：$note")
       }
-
+    } catch {
+      case e:Exception => {logger.error(e.getMessage)}
+    }finally {
+      try{
+        if(connection!=null){
+          connection.close()
+        }
+        if(cs!=null){
+          cs.close()
+        }
+        if(res!=null){
+          res.close()
+        }
+      }catch {
+        case e:Exception =>logger.error(e.getMessage)
+      }
     }
-    new util.ArrayList[Pro_data_info]()
+    list
   }
 
 }
