@@ -14,7 +14,7 @@ object DataFactory {
     val temp = pro_data_info.SQL_TYPE+"::"+pro_data_info.DATA_SOURCE
     val excuteClass = map.get(temp)
     if(excuteClass!=null){
-      val con = excuteClass.getConstructor(SparkSession.getClass,Pro_data_info.getClass,Int.getClass)
+      val con = excuteClass.getConstructor(classOf[SparkSession],classOf[Pro_data_info],classOf[Int])
       val instance = con.newInstance(ssc,pro_data_info,numsparotition.asInstanceOf[Object])
       instance.asInstanceOf[Data_excute]
     }else{
@@ -24,7 +24,7 @@ object DataFactory {
 
 
   private def ControlDataType():Unit={
-    map.put("1::Hive",classOf[ORC_Reader])
+    map.put("1::ORC",classOf[ORC_Reader])
 
 
   }

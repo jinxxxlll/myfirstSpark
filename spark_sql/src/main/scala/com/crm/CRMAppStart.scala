@@ -6,6 +6,7 @@ import com.crm.dao.imp.ConfigDaoImpl
 import com.crm.model.Pro_data_info
 import com.crm.service.DataFactory
 import com.crm.util.Config
+import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 import org.slf4j.{Logger, LoggerFactory}
 
@@ -13,22 +14,22 @@ import scala.util.control.Breaks
 
 object CRMAppStart {
 
- private val logger: Logger = LoggerFactory.getLogger(CRMAppStart.getClass)
+  private val logger: Logger = LoggerFactory.getLogger(CRMAppStart.getClass)
 
   def main(args: Array[String]): Unit = {
 
     var data:Long=0L
     var pro_id:Long=0L
     if(args.length==2){
-    pro_id=args(0).toLong
-    data=args(1).toLong
-    logger.info(s"参数信息为：日期（$data）:: 存储过程id（$pro_id）")
-    val builder = SparkSession.builder
-    var isHive = false
-    var isES = false
-    val list=ConfigDaoImpl.getConfigInfoList(pro_id,data)
-    val iter = list.iterator()
-     while (iter.hasNext){
+      pro_id=args(0).toLong
+      data=args(1).toLong
+      logger.info(s"参数信息为：日期（$data）:: 存储过程id（$pro_id）")
+      val builder = SparkSession.builder
+      var isHive = false
+      var isES = false
+      val list=ConfigDaoImpl.getConfigInfoList(pro_id,data)
+      var iter = list.iterator()
+      while (iter.hasNext){
         val temp = iter.next().DATA_SOURCE
         if("HIVE".equals(temp) && isHive){
           isHive=true
@@ -53,8 +54,10 @@ object CRMAppStart {
         builder.config("es.net.http.auth.user",user)
         builder.config("es.net.http.auth.pass",password)
       }
+      builder.config(new SparkConf().setMaster("local"))
       val ssc = builder.getOrCreate()
       val np = Config.Instance.getProperty("numPartitions").toInt
+      iter=list.iterator()
       while(iter.hasNext){
         val temp = iter.next()
         val data_excute = DataFactory.CreatDataClass(ssc,temp,np)
