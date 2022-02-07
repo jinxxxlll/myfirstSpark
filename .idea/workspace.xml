@@ -4,8 +4,32 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1daece4c-cff4-4090-b606-69dffa80a97a" name="Default Changelist" comment="">
+    <list default="true" id="1daece4c-cff4-4090-b606-69dffa80a97a" name="Default Changelist" comment="crm_test">
+      <change afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/service/Writer/ES_Wtiter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_12_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/src/test/main/java/com/jinx/StartLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/main/java/com/jinx/StartLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/src/test/main/java/com/jinx/model/movieSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/main/java/com/jinx/model/movieSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/src/test/main/java/com/jinx/movie/ratings.java" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/main/java/com/jinx/movie/ratings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/src/test/main/scala/com/jinx/Other.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/main/scala/com/jinx/Other.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/src/test/main/scala/com/jinx/demo/Solution.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/main/scala/com/jinx/demo/Solution.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/src/test/main/scala/com/jinx/demo/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/main/scala/com/jinx/demo/Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/src/test/main/scala/com/jinx/model/DoubleSort.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/main/scala/com/jinx/model/DoubleSort.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/src/test/main/scala/com/jinx/movie/movie_usr.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/main/scala/com/jinx/movie/movie_usr.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_core/src/test/main/scala/com/jinx/movie/sparkCore.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_core/src/main/scala/com/jinx/movie/sparkCore.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/CRMAppStart.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/CRMAppStart.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/dao/imp/ConfigDaoImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/dao/imp/ConfigDaoImpl.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/model/Pro_data_info.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/model/Pro_data_info.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/service/DataFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/service/DataFactory.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/service/Data_excute.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/service/Data_excute.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/service/read/ORC_Reader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/service/read/ORC_Reader.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/src/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/properties/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/src/test/java/com/jinx/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/test/java/com/jinx/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark_sql/src/test/scala/com/jinx/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark_sql/src/test/scala/com/jinx/Test.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,9 +120,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.23448277" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -111,6 +135,7 @@
       <recent name="D:\java_proj\myfirstSpark\spark_core\src\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Gdisk\spark\myfirstSpark\spark_core\src" />
       <recent name="D:\java_proj\myfirstSpark\spark_core" />
     </key>
   </component>
@@ -126,13 +151,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestConfig.testConfig">
-    <configuration name="FirstSparkSQL" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.jinx.FirstSparkSQL" />
+  <component name="RunManager" selected="Application.CRMAppStart">
+    <configuration name="CRMAppStart" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.crm.CRMAppStart" />
       <module name="spark_sql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jinx.*" />
+          <option name="PATTERN" value="com.crm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,7 +165,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApi.testApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComputeLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spark_sql" />
       <extension name="coverage">
         <pattern>
@@ -149,45 +174,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jinx" />
-      <option name="MAIN_CLASS_NAME" value="com.jinx.TestApi" />
-      <option name="METHOD_NAME" value="testApi" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestApi.testFun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spark_sql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jinx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jinx" />
-      <option name="MAIN_CLASS_NAME" value="com.jinx.TestApi" />
-      <option name="METHOD_NAME" value="testFun" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestConfig$" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spark_sql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jinx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jinx" />
-      <option name="MAIN_CLASS_NAME" value="com.jinx.TestConfig$" />
+      <option name="MAIN_CLASS_NAME" value="com.jinx.ComputeLog" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestConfig.testConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComputeLog.readFiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spark_sql" />
       <extension name="coverage">
         <pattern>
@@ -196,7 +189,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jinx" />
-      <option name="MAIN_CLASS_NAME" value="com.jinx.TestConfig" />
+      <option name="MAIN_CLASS_NAME" value="com.jinx.ComputeLog" />
+      <option name="METHOD_NAME" value="readFiles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConf.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spark_sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jinx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jinx" />
+      <option name="MAIN_CLASS_NAME" value="com.jinx.TestConf" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConf.testConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spark_sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jinx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jinx" />
+      <option name="MAIN_CLASS_NAME" value="com.jinx.TestConf" />
       <option name="METHOD_NAME" value="testConfig" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -205,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestConfig.testConfig" />
-        <item itemvalue="JUnit.TestConfig$" />
-        <item itemvalue="JUnit.TestApi.testApi" />
-        <item itemvalue="JUnit.TestApi.testFun" />
-        <item itemvalue="Application.FirstSparkSQL" />
+        <item itemvalue="Application.CRMAppStart" />
+        <item itemvalue="JUnit.TestConf.main" />
+        <item itemvalue="JUnit.TestConf.testConfig" />
+        <item itemvalue="JUnit.ComputeLog" />
+        <item itemvalue="JUnit.ComputeLog.readFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +268,10 @@
       <workItem from="1641048010348" duration="13584000" />
       <workItem from="1641197112851" duration="24432000" />
       <workItem from="1641728096858" duration="14276000" />
+      <workItem from="1642496379652" duration="265000" />
+      <workItem from="1642496720271" duration="18097000" />
+      <workItem from="1642750307398" duration="3322000" />
+      <workItem from="1644203249877" duration="14963000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1640530756892</created>
@@ -335,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641911898153</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="crm_test">
+      <created>1642497549381</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1642497549381</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +543,8 @@
     <MESSAGE value="更新结构，以及sparkSQl代码" />
     <MESSAGE value="1" />
     <MESSAGE value="crm" />
-    <option name="LAST_COMMIT_MESSAGE" value="crm" />
+    <MESSAGE value="crm_test" />
+    <option name="LAST_COMMIT_MESSAGE" value="crm_test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,6 +557,11 @@
           <url>jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.12/2.4.4/spark-core_2.12-2.4.4-sources.jar!/org/apache/spark/rdd/RDD.scala</url>
           <line>786</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark_sql/src/main/scala/com/crm/dao/imp/ConfigDaoImpl.scala</url>
+          <line>47</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

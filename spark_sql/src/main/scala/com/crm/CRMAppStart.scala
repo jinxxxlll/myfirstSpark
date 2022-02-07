@@ -3,21 +3,19 @@ package com.crm
 import java.util
 
 import com.crm.dao.imp.ConfigDaoImpl
-import com.crm.model.Pro_data_info
 import com.crm.service.DataFactory
 import com.crm.util.Config
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 import org.slf4j.{Logger, LoggerFactory}
 
-import scala.util.control.Breaks
+
 
 object CRMAppStart {
 
   private val logger: Logger = LoggerFactory.getLogger(CRMAppStart.getClass)
 
   def main(args: Array[String]): Unit = {
-
     var data:Long=0L
     var pro_id:Long=0L
     if(args.length==2){
@@ -58,6 +56,8 @@ object CRMAppStart {
       val ssc = builder.getOrCreate()
       val np = Config.Instance.getProperty("numPartitions").toInt
       iter=list.iterator()
+      //伴生类加载控制主类
+      DataFactory.ControlDataType()
       while(iter.hasNext){
         val temp = iter.next()
         val data_excute = DataFactory.CreatDataClass(ssc,temp,np)

@@ -59,7 +59,7 @@
         <!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc11 -->
         <dependency>
             <groupId>com.oracle.database.jdbc</groupId>
-            <artifactId>ojdbc11</artifactId>
+            <artifactId>ojdbc8</artifactId>
             <version>21.1.0.0</version>
         </dependency>
 
@@ -96,8 +96,17 @@
                     <version>2.22.1</version>
                 </plugin>
                 <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-jar-plugin</artifactId>
                     <version>3.0.2</version>
+                    <configuration>
+                        <archive>
+                            <manifest>
+                                <addClasspath>true</addClasspath>
+                                <mainClass>com.crm.CRMAppStart</mainClass><!-- 你的主类名Main , 如果你的主类名在 com.cnblogs.i 下，那么这里就是 com.cnblogs.i.Main -->
+                            </manifest>
+                        </archive>
+                    </configuration>
                 </plugin>
                 <plugin>
                     <artifactId>maven-install-plugin</artifactId>
@@ -119,15 +128,16 @@
             </plugins>
         </pluginManagement>
         <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>8</source>
+                <target>8</target>
+            </configuration>
+        </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>8</source>
-                    <target>8</target>
-                </configuration>
-            </plugin>
-            <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
                     <descriptorRefs>
@@ -135,7 +145,8 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.crm.CRMAppStart</mainClass>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>com.crm.CRMAppStart</mainClass><!-- 你的主类名Main , 如果你的主类名在 com.cnblogs.i 下，那么这里就是 com.cnblogs.i.Main -->
                         </manifest>
                     </archive>
                 </configuration>
@@ -143,12 +154,9 @@
                     <execution>
                         <id>make-assembly</id>
                         <phase>package</phase>
-                        <goals>
-                            <goal>single</goal>
-                        </goals>
                     </execution>
                 </executions>
             </plugin>
-        </plugins>
+    </plugins>
     </build>
 </project>

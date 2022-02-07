@@ -12,6 +12,4 @@ abstract class Data_excute(ssc: SparkSession,pro_data_info: Pro_data_info,np:Int
   val numsPartition:Int=np
   def excute(sparkSession: SparkSession,pro_data_info: Pro_data_info,numsPartition:Int)
 
-
-
 }

@@ -2,7 +2,6 @@ package com.crm.dao.imp
 
 import java.sql.{CallableStatement, ResultSet}
 import java.util
-import java.util._
 
 import com.crm.dao.ConfigDao
 import com.crm.model.Pro_data_info
@@ -11,6 +10,7 @@ import com.google.gson.Gson
 import org.apache.commons.lang3.StringUtils
 import org.slf4j.{Logger, LoggerFactory}
 
+import scala.collection.{JavaConverters, Map, mutable}
 object ConfigDaoImpl extends ConfigDao{
 
   private val logger: Logger = LoggerFactory.getLogger(ConfigDaoImpl.getClass)
@@ -44,10 +44,9 @@ object ConfigDaoImpl extends ConfigDao{
           val tableName = res.getString(4)
           val sourceType = res.getString(5)
           val cfg = res.getString(6)
-
           if(StringUtils.isNotBlank(cfg)){
-            val map:util.Map[String,String]= (new Gson).fromJson(cfg, classOf[util.Map[String,String]])
-            dataClass=Pro_data_info(id,sql,sqlType,tableName,sourceType,map)
+            val map= JavaConverters.mapAsScalaMap((new Gson).fromJson(cfg,classOf[util.HashMap[String,String]]))
+            dataClass=Pro_data_info(id,sql,sqlType,tableName,sourceType,map.asInstanceOf[Map[String,String]])
           }else{
             dataClass=Pro_data_info(id,sql,sqlType,tableName,sourceType,null)
           }

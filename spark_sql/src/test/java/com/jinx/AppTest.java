@@ -22,14 +22,10 @@ public class AppTest {
     /**
      * Rigorous Test :-)
      */
-    @Test
-    public void shouldAnswerWithTrue() {
-        assertTrue(true);
-    }
 
     @Test
     public void test() {
 
-        JavaEsSparkSQL.saveToEs(SparkSession.builder().getOrCreate().sql("1"),"2");
+        //JavaEsSparkSQL.saveToEs(SparkSession.builder().getOrCreate().sql("1"),"2");
     }
 }
